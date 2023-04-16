@@ -1,3 +1,6 @@
+# Created by https://www.toptal.com/developers/gitignore/api/windows,c,executable
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,c,executable
+
 ### C ###
 # Prerequisites
 *.d
@@ -52,24 +55,15 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
-
-# Local History for Visual Studio Code
-.history/
-
-# Built Visual Studio Code Extensions
-*.vsix
-
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-.ionide
+### Executable ###
+*.bat
+*.cgi
+*.com
+*.gadget
+*.jar
+*.pif
+*.vb
+*.wsf
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -96,3 +90,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/windows,c,executable
